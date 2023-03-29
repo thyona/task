@@ -1,0 +1,76 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h2{
+  font-size: 2.4rem;
+  font-family: "work sans";
+}
+
+.p{
+  font-size: 1.4rem;
+  margin: 1rem 0 2.4rem 0;
+  line-height: 1.8rem;
+  color: black;
+  font-weight: 400;
+  font-family: "Source Serif pro",serif;
+}
+
+.container{
+  margin: 5rem;
+}
+
+.model-wrapper{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: gray;
+}
+
+.model-container{
+  position: fixed;
+  background-color: rgba(200, 255, 0, 0.982);
+  max-width: 30rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.model-btn{
+  padding: 0.6rem 1.4rem;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-family: "Work Sans",sans-serif;
+  transform: scale(0.9);
+}
+
+.model-btn:hover{
+  background-color: white;
+  color: black;
+  border: black;
+  transform: scale(1);
+  transition: all 0.1s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
